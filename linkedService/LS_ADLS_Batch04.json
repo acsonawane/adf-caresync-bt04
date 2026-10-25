@@ -1,0 +1,10 @@
+{
+	"name": "LS_ADLS_Batch04",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://sacaresyncbatch04.dfs.core.windows.net/"
+		}
+	}
+}
