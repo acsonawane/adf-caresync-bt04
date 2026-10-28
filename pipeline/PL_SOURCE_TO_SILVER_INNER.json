@@ -159,6 +159,8 @@
 			{
 				"name": "Bronze_to_Silver",
 				"type": "DatabricksNotebook",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Landing_to_Bronze",
@@ -204,6 +206,8 @@
 			{
 				"name": "Update_Success_Status",
 				"type": "Script",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Bronze_to_Silver",
@@ -319,6 +323,8 @@
 			{
 				"name": "check load type and update watermark",
 				"type": "IfCondition",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Bronze_to_Silver",
