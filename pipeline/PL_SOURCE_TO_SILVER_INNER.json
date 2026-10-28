@@ -187,11 +187,11 @@
 							"type": "Expression"
 						},
 						"load_type": {
-							"value": "@activity('Read Watermark').output.firstRow.load_type",
+							"value": "@activity('Read_Table_Details').output.firstRow.load_type",
 							"type": "Expression"
 						},
 						"merge_keys": {
-							"value": "@coalesce(activity('Read Watermark').output.firstRow.merge_keys,'')",
+							"value": "@coalesce(activity('Read_Table_Details').output.firstRow.merge_keys,'')",
 							"type": "Expression"
 						}
 					}
